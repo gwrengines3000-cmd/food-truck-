@@ -1,0 +1,24 @@
+{
+  "name": "food-truck",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/gwrengines3000-cmd/food-truck-#readme",
+  "bugs": {
+    "url": "https://github.com/gwrengines3000-cmd/food-truck-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwrengines3000-cmd/food-truck-.git"
+  },
+  "license": "ISC",
+  "author": "Stephen R",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^6.3.0"
+  }
+}

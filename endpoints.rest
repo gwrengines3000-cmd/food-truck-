@@ -1,0 +1,26 @@
+
+
+@url = http://localhost:3010/api/v1/
+
+### Get random menu item
+
+@id = 69fa35eaca3c49d3ff335c85
+
+GET {{url}}/menu/random
+
+###
+
+GET {{url}}/menu/3
+
+
+
+### Add new menu item
+POST {{url}}/add
+Content-Type: application/json
+
+{ 
+    "id": 6,
+    "name": "Chimichanga"
+}
+
+
