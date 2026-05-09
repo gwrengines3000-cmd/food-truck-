@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom, #fff8ef, #ffe4c4);
+}
+
+/* NAVIGATION */
+nav {
+    background: linear-gradient(90deg, #ff7f50, #d2691e);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffe4b5;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* HEADINGS */
+h1 {
+    color: #c75100;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #c75100;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* PARAGRAPHS */
+p {
+    margin-bottom: 1rem;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #ffe4b5, #ffdead);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/* MENU SECTIONS */
+.menu-section {
+    margin-bottom: 2rem;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 6px solid #ff7f50;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+    color: #d2691e;
+}
+
+.price {
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: linear-gradient(135deg, #ffe4b5, #ffd39b);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info strong {
+    color: #c75100;
+}
+
+/* IMAGE STYLING */
+img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 250px;   /* adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    box-shadow: none;   /* optional: remove shadow from logo */
+    border-radius: 0;   /* optional: remove rounding */
+}

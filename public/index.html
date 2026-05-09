@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Truck</title>
-    <script src="/script/site.js" defer></script>
+    <title>Food Truck - Home</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="/public/script/site.js" defer></script>
 </head>
 <body>
-    <h1>Welcome to the Food Truck!</h1>
-    <h2></h2>
+
+    <!-- LOGO SECTION -->
+    <header class="logo-header">
+        <img src="/public/img/blazin-wings.png" alt="Blazin' Wings Logo" class="logo">
+    </header>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/public/menu.html">Menu</a>
+        <a href="/public/about.html">About & Contact</a>
+    </nav>
+    
+    <div class="container">
+        <div class="hero">
+            <h1>Welcome to the Blazin' Wings Food Truck!</h1>
+            <p>Get your fill of our amazing food on wheels. Come find us and enjoy delicious flavors wherever you are!</p>
+
+            <!-- ⭐ LOCATION SECTION (this MUST be here) -->
+            <h2 id="location-title">Today's Location</h2>
+            <p id="location-output" style="font-weight: bold; color: #c75100;"></p>
+
+            <img src="/public/img/food-truck.png" alt="Food Truck">
+        </div>
+        
+        <section>
+            <h2>Try us out!</h2>
+            <p>We serve people from all over Wisconsin. Since 2010, we have been focused on quality meals at affordable prices.</p>
+        </section>
+    </div>
+
 </body>
 </html>
