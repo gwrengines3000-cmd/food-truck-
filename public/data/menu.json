@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Mild Wings",
+    "price": 9.99,
+    "heat": "Mild",
+    "description": "Traditional wings tossed in our smooth, buttery mild sauce."
+  },
+  {
+    "id": 2,
+    "name": "Honey BBQ Wings",
+    "price": 10.49,
+    "heat": "Sweet",
+    "description": "A perfect blend of smoky BBQ and sweet honey glaze."
+  },
+  {
+    "id": 3,
+    "name": "Spicy Garlic Wings",
+    "price": 10.99,
+    "heat": "Medium",
+    "description": "Garlic lovers rejoice — spicy, savory, and unforgettable."
+  },
+  {
+    "id": 4,
+    "name": "Inferno Blaze Wings",
+    "price": 11.49,
+    "heat": "HOT",
+    "description": "Our signature fire sauce. Not for the faint of heart."
+  },
+  {
+    "id": 5,
+    "name": "Nuclear Melt Wings",
+    "price": 12.49,
+    "heat": "EXTREME",
+    "description": "The hottest wings we offer. Handle with caution."
+  }
+]

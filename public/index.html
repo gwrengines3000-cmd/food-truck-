@@ -9,25 +9,26 @@
 </head>
 <body>
 
-    <!-- LOGO SECTION -->
-    <header class="logo-header">
-        <img src="/public/img/blazin-wings.png" alt="Blazin' Wings Logo" class="logo">
+    <!-- SIDE LOGO + NAV WRAPPER -->
+    <header class="side-header">
+        <img src="/public/img/blazin-wings.png" alt="Blazin' Wings Logo" class="side-logo">
+
+        <nav class="side-nav">
+            <a href="/">Home</a>
+            <a href="/public/menu.html">Menu</a>
+            <a href="/public/about.html">About & Contact</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="/">Home</a>
-        <a href="/public/menu.html">Menu</a>
-        <a href="/public/about.html">About & Contact</a>
-    </nav>
-    
     <div class="container">
         <div class="hero">
             <h1>Welcome to the Blazin' Wings Food Truck!</h1>
             <p>Get your fill of our amazing food on wheels. Come find us and enjoy delicious flavors wherever you are!</p>
 
-            <!-- ⭐ LOCATION SECTION (this MUST be here) -->
-            <h2 id="location-title">Today's Location</h2>
-            <p id="location-output" style="font-weight: bold; color: #c75100;"></p>
+            <section class="events-widget">
+                <h2>Upcoming Events</h2>
+                <div id="events-container">Loading events...</div>
+            </section>
 
             <img src="/public/img/food-truck.png" alt="Food Truck">
         </div>
@@ -37,6 +38,17 @@
             <p>We serve people from all over Wisconsin. Since 2010, we have been focused on quality meals at affordable prices.</p>
         </section>
     </div>
+
+    <!-- SOCIAL FOOTER -->
+    <footer class="social-footer">
+        <p>Follow Us</p>
+        <div class="social-links">
+            <a href="#" class="social fb">Facebook</a>
+            <a href="#" class="social ig">Instagram</a>
+            <a href="#" class="social tw">Twitter</a>
+            <a href="mailto:contact@blazinwings.com" class="social em">Email</a>
+        </div>
+    </footer>
 
 </body>
 </html>
