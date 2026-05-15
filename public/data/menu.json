@@ -1,37 +1,73 @@
-[
-  {
-    "id": 1,
-    "name": "Classic Mild Wings",
-    "price": 9.99,
-    "heat": "Mild",
-    "description": "Traditional wings tossed in our smooth, buttery mild sauce."
-  },
-  {
-    "id": 2,
-    "name": "Honey BBQ Wings",
-    "price": 10.49,
-    "heat": "Sweet",
-    "description": "A perfect blend of smoky BBQ and sweet honey glaze."
-  },
-  {
-    "id": 3,
-    "name": "Spicy Garlic Wings",
-    "price": 10.99,
-    "heat": "Medium",
-    "description": "Garlic lovers rejoice — spicy, savory, and unforgettable."
-  },
-  {
-    "id": 4,
-    "name": "Inferno Blaze Wings",
-    "price": 11.49,
-    "heat": "HOT",
-    "description": "Our signature fire sauce. Not for the faint of heart."
-  },
-  {
-    "id": 5,
-    "name": "Nuclear Melt Wings",
-    "price": 12.49,
-    "heat": "EXTREME",
-    "description": "The hottest wings we offer. Handle with caution."
-  }
-]
+{
+  "wings": [
+    {
+      "id": 1,
+      "name": "Classic Mild Wings",
+      "price": 9.99,
+      "heat": "Mild",
+      "description": "Traditional wings tossed in our smooth, buttery mild sauce."
+    },
+    {
+      "id": 2,
+      "name": "Spicy Garlic Wings",
+      "price": 10.99,
+      "heat": "Medium",
+      "description": "Garlic lovers rejoice — spicy, savory, and unforgettable."
+    },
+    {
+      "id": 3,
+      "name": "Nuclear Melt Wings",
+      "price": 12.49,
+      "heat": "EXTREME",
+      "description": "The hottest wings we offer. Handle with caution."
+    }
+  ],
+
+  "wraps": [
+    {
+      "id": 4,
+      "name": "Buffalo Chicken Wrap",
+      "price": 8.99,
+      "heat": "Medium",
+      "description": "Crispy chicken, lettuce, tomato, and buffalo sauce wrapped tight."
+    },
+    {
+      "id": 5,
+      "name": "Honey BBQ Chicken Wrap",
+      "price": 9.49,
+      "heat": "Sweet",
+      "description": "Grilled chicken with honey BBQ, cheddar, and fresh greens."
+    },
+    {
+      "id": 6,
+      "name": "Southwest Chipotle Wrap",
+      "price": 9.99,
+      "heat": "HOT",
+      "description": "Chipotle chicken, corn salsa, pepper jack, and spicy ranch."
+    }
+  ],
+
+  "burgers": [
+    {
+      "id": 7,
+      "name": "Classic Flame-Grilled Burger",
+      "price": 10.99,
+      "heat": "None",
+      "description": "A juicy 1/3 lb patty with lettuce, tomato, onion, and pickles."
+    },
+    {
+      "id": 8,
+      "name": "Blazin' Jalapeño Burger",
+      "price": 11.99,
+      "heat": "HOT",
+      "description": "Stacked with jalapeños, pepper jack cheese, and spicy mayo."
+    },
+    {
+      "id": 9,
+      "name": "BBQ Bacon Smokehouse Burger",
+      "price": 12.49,
+      "heat": "Sweet",
+      "description": "Thick-cut bacon, smoky BBQ sauce, and crispy onion straws."
+    }
+  ]
+}

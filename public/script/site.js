@@ -26,25 +26,33 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
     const menuContainer = document.getElementById("menu-container");
-    if (!menuContainer) return; // not on menu.html
+    if (!menuContainer) return;
 
     try {
-        const response = await fetch("/data/menu.json"); // FIXED PATH
+        const response = await fetch("/public/data/menu.json");
         if (!response.ok) throw new Error("Failed to fetch JSON");
 
-        const menuItems = await response.json();
+        const data = await response.json();
 
-        menuContainer.innerHTML = menuItems.map(item => `
-            <div class="menu-item" data-id="${item.id}">
-                <h3>${item.name} <span class="heat-tag">${item.heat}</span></h3>
-                <p class="price">$${item.price.toFixed(2)}</p>
-                <div class="details" style="display:none;">
-                    <p>${item.description}</p>
-                </div>
-            </div>
-        `).join("");
+        // Build category sections
+        menuContainer.innerHTML = Object.keys(data).map(category => {
+            const items = data[category];
 
-        // CLICK TO EXPAND
+            return `
+                <h2 class="menu-category">${category.toUpperCase()}</h2>
+                ${items.map(item => `
+                    <div class="menu-item" data-id="${item.id}">
+                        <h3>${item.name} <span class="heat-tag">${item.heat}</span></h3>
+                        <p class="price">$${item.price.toFixed(2)}</p>
+                        <div class="details" style="display:none;">
+                            <p>${item.description}</p>
+                        </div>
+                    </div>
+                `).join("")}
+            `;
+        }).join("");
+
+        // Expand/collapse behavior
         document.querySelectorAll(".menu-item").forEach(item => {
             item.addEventListener("click", () => {
                 const details = item.querySelector(".details");
